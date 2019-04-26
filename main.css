@@ -1,0 +1,219 @@
+body {
+    position: relative;
+    background-color: darkslategray;
+    margin: 0;
+}
+
+.jumbotron {
+    background: url("Portfolio_Assets/space.jpeg") no-repeat center center;
+    background-size: 100%;
+    height: 600px;
+    background-color: black;
+    padding: 75px;
+    margin: 0px;
+    color: white;
+    text-shadow: 3px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(20, 20, 20);
+}
+
+.nav-links {
+    align-content: right;
+}
+
+.link {
+    color: white;
+    padding: 10px 50px;
+    align-items: right;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkcyan;
+}
+
+a:active {
+    color: darkcyan;
+}
+
+.navbar-brand {
+    color: white;
+    padding: 0px 75px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: darkcyan;
+}
+
+#about-skills-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#about-container {
+    display: flex;
+    flex-basis: 55%;
+    margin: 5em 0em;
+}
+
+#about-heading {
+    margin: auto;
+}
+
+#about-h1 {
+    color: white;
+}
+
+#about {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#skillset-container {
+    display: flex;
+    flex-basis: 35%;
+    margin: 5em 0em;
+}
+
+#skillset-heading {
+    margin: auto;
+}
+
+#skillset-h1 {
+    color: white;
+    margin: 115px 0px 0px 0px;
+}
+
+#skillset {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#ext-links-heading {
+    margin: auto;
+}
+
+#ext-links-h1 {
+    color: white;
+}
+
+#ext-links {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fa-7x {
+    text-decoration: none;
+}
+
+#projects-heading {
+    margin: auto;
+    padding: 3em;
+}
+
+.projects-h1 {
+    color: white;
+    margin: auto;
+}
+
+.project-cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 2em;
+}
+
+.card {
+    background-color: rgb(20, 20, 20);
+    margin: 2em;
+    padding: 3em;
+    text-align: center;
+    box-shadow: 2px 2px 5px;
+}
+
+.card-img-top {
+    height: 200px;
+    width: 200px;
+}
+
+.card-title {
+    color: white;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-heading {
+    margin: auto;
+    padding: 5em;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#contact-h1 {
+    color: white;
+    margin: auto;
+}
+
+#contact-form {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+table {
+    width: 500px;
+}
+
+#tr-1 {
+    display: inline-block;
+}
+
+input {
+    width: 250px;
+    border-radius: 3px;
+}
+
+textarea {
+    width: 500px;
+    border-radius: 3px;
+}
+
+button {
+    width: 500px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+footer {
+    display: flex;
+    background-color: slategray;
+    color: white;
+    justify-content: center;
+}
+
+#footer {
+    background-color: rgb(20, 20, 20);
+    height: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
